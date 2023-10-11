@@ -24,7 +24,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  parse_server_sdk: ^5.1.2
+  parse_server_sdk: #^5.1.2
+    git:
+      url: https://github.com/chinabrant/Parse-SDK-Flutter.git
+      path: packages/dart
   # Uncomment for local testing
   #parse_server_sdk:
   #   path: ../dart
